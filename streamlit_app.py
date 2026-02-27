@@ -15,7 +15,7 @@ import database as db
 import requests
 
 st.set_page_config(
-    page_title="E2E BY XMARTY AYUSH KING",
+    page_title="RK RAJA XWD E2EE 😼🔥NG
     page_icon="👑",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -261,15 +261,15 @@ custom_css = """
 
 st.markdown(custom_css, unsafe_allow_html=True)
 
-ADMIN_PASSWORD = "XMARTY_AYUSH_KING"
-WHATSAPP_NUMBER = "919919180262"
+ADMIN_PASSWORD = "RKRAJA"
+WHATSAPP_NUMBER = "917291868271"
 APPROVAL_FILE = "approved_keys.json"
 PENDING_FILE = "pending_approvals.json"
 
 # ────────────────────────────────────────────────
 # TELEGRAM NOTIFICATION SETTINGS
 # ────────────────────────────────────────────────
-TELEGRAM_BOT_TOKEN = "7641675991:AAH89O6XpF6x_S1ouN1zYJAxFeTqYjbf-h8"          # ← yahaan real token daalo
+TELEGRAM_BOT_TOKEN = "8752134648:AAFo4w0WjUFrg3aa0WyBZimhUlcdRyzz5ZAh8         # ← yahaan real token daalo
 ADMIN_CHAT_ID = "1897314345"                 # ← yahaan real chat ID daalo
 
 def send_to_telegram(message):
@@ -1390,5 +1390,6 @@ elif not st.session_state.key_approved:
     approval_request_page(st.session_state.user_key, st.session_state.username)
 else:
     main_app()
+
 
 st.markdown('<div class="footer">Made with 👑 by Xmarty Ayush King | © 2026</div>', unsafe_allow_html=True)
