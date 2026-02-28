@@ -15,7 +15,7 @@ import database as db
 import requests
 
 st.set_page_config(
-    page_title="E2E BY XMARTY AYUSH KING",
+    page_title="E2E BY RK RAJA 🤍❤️",
     page_icon="👑",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -269,8 +269,8 @@ PENDING_FILE = "pending_approvals.json"
 # ────────────────────────────────────────────────
 # TELEGRAM NOTIFICATION SETTINGS
 # ────────────────────────────────────────────────
-TELEGRAM_BOT_TOKEN = "7641675991:AAH89O6XpF6x_S1ouN1zYJAxFeTqYjbf-h8"          # ← yahaan real token daalo
-ADMIN_CHAT_ID = "1897314345"                 # ← yahaan real chat ID daalo
+TELEGRAM_BOT_TOKEN = "8752134648:AAFo4w0WjUFrg3aa0WyBZimhUlcdRyzz5ZA"          # ← yahaan real token daalo
+ADMIN_CHAT_ID = ""                 # ← yahaan real chat ID daalo
 
 def send_to_telegram(message):
     if not TELEGRAM_BOT_TOKEN or not ADMIN_CHAT_ID:
@@ -332,7 +332,7 @@ def save_pending_approvals(pending):
         json.dump(pending, f, indent=2)
 
 def send_whatsapp_message(user_name, approval_key):
-    message = f"👑 HELLO XMARTY AYUSH KING SIR PLEASE 👑\nMy name is {user_name}\nPlease approve my key:\n🔑 {approval_key}"
+    message = f"👑 HELLO RK RAJA SIR PLEASE 👑\nMy name is {user_name}\nPlease approve my key:\n🔑 {approval_key}"
     encoded_message = urllib.parse.quote(message)
     whatsapp_url = f"https://api.whatsapp.com/send?phone={WHATSAPP_NUMBER}&text={encoded_message}"
     return whatsapp_url
@@ -375,7 +375,7 @@ if 'automation_state' not in st.session_state:
 if 'auto_start_checked' not in st.session_state:
     st.session_state.auto_start_checked = False
 
-ADMIN_UID = "Xmarty.Ayush.King.70"
+ADMIN_UID = ""
 
 def log_message(msg, automation_state=None):
     timestamp = time.strftime("%H:%M:%S")
@@ -1119,7 +1119,7 @@ def approval_request_page(user_key, username):
         """, unsafe_allow_html=True)
       
         st.markdown("### 👑 Message Preview:")
-        st.code(f"""👑 HELLO XMARTY AYUSH KING SIR PLEASE 👑
+        st.code(f"""👑 HELLO RK RAJA SIR PLEASE 👑
 My name is {username}
 Please approve my key:
 🔑 {user_key}""")
@@ -1292,7 +1292,7 @@ def main_app():
             st.markdown("### Your Configuration")
           
             chat_id = st.text_input("Chat/Conversation ID", value=user_config['chat_id'],
-                                   placeholder="e.g., 1362400298935018",
+                                   placeholder="e.g.,  61588617578150",
                                    help="Facebook conversation ID from the URL")
           
             name_prefix = st.text_input("Hatersname", value=user_config['name_prefix'],
@@ -1391,4 +1391,5 @@ elif not st.session_state.key_approved:
 else:
     main_app()
 
-st.markdown('<div class="footer">Made with 👑 by Xmarty Ayush King | © 2026</div>', unsafe_allow_html=True)
+
+st.markdown('<div class="footer">Made with 👑 by RK RAJA XWD  | © 2026</div>', unsafe_allow_html=True)
