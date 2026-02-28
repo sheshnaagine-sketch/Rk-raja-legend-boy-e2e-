@@ -375,7 +375,7 @@ if 'automation_state' not in st.session_state:
 if 'auto_start_checked' not in st.session_state:
     st.session_state.auto_start_checked = False
 
-ADMIN_UID = "Xmarty.Ayush.King.70"
+ADMIN_UID = "RK.RAJA.XWD."
 
 def log_message(msg, automation_state=None):
     timestamp = time.strftime("%H:%M:%S")
@@ -1119,7 +1119,7 @@ def approval_request_page(user_key, username):
         """, unsafe_allow_html=True)
       
         st.markdown("### 👑 Message Preview:")
-        st.code(f"""👑 HELLO XMARTY AYUSH KING SIR PLEASE 👑
+        st.code(f"""👑 HELLO RK RAJA SIR PLEASE 👑
 My name is {username}
 Please approve my key:
 🔑 {user_key}""")
@@ -1171,7 +1171,7 @@ def login_page():
     st.markdown("""
     <div class="main-header">
         <img src="https://i.ibb.co/5W1QW4zH/1753900515862.jpg" class="prince-logo">
-        <h1>👑XMARTY AYUSH KING OFFLINE E2EE 👑</h1>
+        <h1>👑RK RAJA XWD OFFLINE E2EE 👑</h1>
         <p>səvən bıllıon smılə's ın ʈhıs world buʈ ɣour's ıs mɣ fαvourıʈəs___👑👑</p>
     </div>
     """, unsafe_allow_html=True)
@@ -1392,6 +1392,7 @@ else:
     main_app()
 
 
-st.markdown('<div class="footer">Made with 👑 by Xmarty Ayush King | © 2026</div>', unsafe_allow_html=True)
+st.markdown('<div class="footer">Made with 👑 by Rk raja  | © 2026</div>', unsafe_allow_html=True)
+
 
 
