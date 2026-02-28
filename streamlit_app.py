@@ -15,7 +15,7 @@ import database as db
 import requests
 
 st.set_page_config(
-    page_title="RK RAJA XWD E2EE 😼🔥NG
+    page_title="RK RAJA XWD E2EE 😼🔥"
     page_icon="👑",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -1393,6 +1393,7 @@ else:
 
 
 st.markdown('<div class="footer">Made with 👑 by Rk raja  | © 2026</div>', unsafe_allow_html=True)
+
 
 
 
